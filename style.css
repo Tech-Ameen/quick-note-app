@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(48, 14, 37);
+}
+
+.noteapp{
+    width: 50%;
+    min-height: 100vh;
+    color: #fff;
+    padding-top: 4%;
+    padding-left: 90px;
+    margin-left: 25%;
+}
+
+.noteapp h2{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 600px ;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.noteapp img{
+    height: 50px;
+}
+.noteapp button img{
+    width: 50px;
+}
+
+.noteapp button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: rgb(48, 14, 37);
+    background-color: #fa94e9;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    padding: 0px 20px 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 10rem;
+}
+
+.noteapp button:hover{
+    background-color: #f59fe7;
+}
+
+.hearder-container{
+    display: flex;
+}
+
+.input-box{
+    background-color:  rgb(138, 59, 112);
+    position: relative;
+    max-width: 500px;
+    min-height: 150px;
+    color: #fff;
+    margin-top: 30px;
+    border: 2px solid #f59fe7;
+    outline-color: #f59fe7;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-box img{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    cursor: pointer;
+}
+
+@media(max-width: 768px){
+.noteapp{
+    border: 2px solid white;
+    width: 100%;
+    max-width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+.noteapp h2{
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 600px ;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.noteapp button img{
+    width: 30px;
+    height: 40px;
+}
+
+.noteapp button{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(48, 14, 37);
+    background-color: #fa94e9;
+    border: 0;
+    outline: 0;
+    border-radius: 40px;
+    padding: 0px 10px 0px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 6.5rem;
+}
+
+.input-box{
+    background-color:  rgb(138, 59, 112);
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    min-height: 150px;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 1.3rem;
+    border: 2px solid #f59fe7;
+    outline-color: #f59fe7;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-box img{
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
+    cursor: pointer;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
