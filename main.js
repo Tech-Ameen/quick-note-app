@@ -5,10 +5,6 @@ const createBtn = document.querySelector(".btn");
 // we would then create the input box
 let notes = document.querySelectorAll(".input-box");
 
-function storeNote(){
-    noteApp.innerHTML = localStorage.getItem("notes");
-}
-
 //to save to local storage                                                  
 function saveToLocalStorage() {
     localStorage.setItem("notes", noteApp.innerHTML);
